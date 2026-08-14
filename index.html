@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- For the search icon from fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div id="app">
+      <!-- search bar -->
+      <div id="searchBar">
+        <input type="text" id="searchBarInput" placeholder="Search by city" />
+        <button id="searchIcon">
+          <!-- icon fromfontawesome -->
+          <i class="fa fa-search" aria-hidden="true"></i>
+        </button>
+      </div>
+      <!-- date & city -->
+      <div id="info">
+        <p id="date"></p>
+        <h3 id="city"></h3>
+      </div>
+
+      <!-- description -->
+      <div id="description"></div>
+      <!-- temperature -->
+      <div id="temp"></div>
+      <!-- extra info -->
+      <div id="extraInfo">
+        <div class="col">
+          <div class="info">
+            <h5>Highs</h5>
+            <p id="tempMax"></p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="info">
+            <h5>Lows</h5>
+            <p id="tempMin"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
