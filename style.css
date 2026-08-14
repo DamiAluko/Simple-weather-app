@@ -13,8 +13,8 @@ body {
 }
 
 #app {
-  width: 300px;
-  min-height: 400px;
+  width: 400px;
+  min-height: 450px;
   padding: 40px 24px 56px;
   border-radius: 28px;
   background: linear-gradient(160deg, #5c99f5 0%, #2447f8 45%, #0b0bfa 100%);
@@ -70,15 +70,15 @@ body {
 }
 
 #date {
-  font-size: 13px;
+  font-size: 14px;
   letter-spacing: 0.3px;
   color: rgba(255, 255, 255, 0.85);
   margin: 0 0 6px;
 }
 
 #city {
-  font-size: 32px;
-  font-weight: 800;
+  font-size: 26px;
+  font-weight: 500;
   letter-spacing: 1px;
   margin: 0;
   text-transform: uppercase;
@@ -110,7 +110,7 @@ body {
 #temp {
   text-align: center;
   font-size: 48px;
-  font-weight: 800;
+  font-weight: 700;
   margin-bottom: 26px;
 }
 
